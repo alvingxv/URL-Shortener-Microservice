@@ -1,14 +1,8 @@
 const monggose = require('mongoose');
 
 const urlSchema = new monggose.Schema({
-    original_url: {
-        type: String,
-        required: true
-    },
-    short_url: {
-        type: String,
-        required: true
-    }
+    original_url: String,
+    short_url: String
 });
 
 //exports
